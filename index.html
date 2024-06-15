@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Cards</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 16px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 16px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        .card h2, .card p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="user1.jpeg" alt="User 1">
+    <h2>Иван Иванов</h2>
+    <p>Email: ivan.ivanov@example.com</p>
+    <p>Дата рождения: 01.01.1990</p>
+    <p>Город: Москва</p>
+</div>
+
+<div class="card">
+    <img src="user2.jpeg" alt="User 2">
+    <h2>Мария Петрова</h2>
+    <p>Email: maria.petrova@example.com</p>
+    <p>Дата рождения: 02.02.1985</p>
+    <p>Город: Санкт-Петербург</p>
+</div>
+
+<div class="card">
+    <img src="user3.jpeg" alt="User 3">
+    <h2>Алексей Смирнов</h2>
+    <p>Email: alexey.smirnov@example.com</p>
+    <p>Дата рождения: 03.03.1975</p>
+    <p>Город: Новосибирск</p>
+</div>
+
+</body>
+</html>
